@@ -13,4 +13,8 @@ class ProjectEulerTests: XCTestCase {
     func testProblem0001() {
         XCTAssertEqual(Problem0001(10), 23)
     }
+
+    func testProblem0002() {
+        XCTAssertEqual(Problem0002(100), 44)
+    }
 }
