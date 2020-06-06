@@ -4,6 +4,7 @@ enum EulerProblemNumber: Int, CaseIterable {
     case p1 = 1
     case p2
     case p3
+    case p4
 }
 
 class EulerManager: ObservableObject {
@@ -24,6 +25,7 @@ class EulerManager: ObservableObject {
         case .p1: answer = Problem0001().description
         case .p2: answer = Problem0002().description
         case .p3: answer = Problem0003().description
+        case .p4: answer = Problem0004().description
         }
 
         problems[problem.rawValue - 1].answer = answer

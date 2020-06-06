@@ -14,6 +14,7 @@ class ProjectEulerTests: XCTestCase {
         XCTAssertEqual(Problem0001(10), 23)
         XCTAssertEqual(Problem0002(100), 44)
         XCTAssertEqual(Problem0003(13_195), 29)
+        XCTAssertEqual(Problem0004(99), 9009)
     }
 
     func testPrimeFactors() {
