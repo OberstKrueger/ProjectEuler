@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		568F5021248727DA00AAC556 /* Problem0003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F5020248727DA00AAC556 /* Problem0003.swift */; };
+		568F50242487287E00AAC556 /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F50232487287E00AAC556 /* PrimeFactors.swift */; };
 		569A75F2247BD9CA003021ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A75F1247BD9CA003021ED /* AppDelegate.swift */; };
 		569A75F4247BD9CA003021ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A75F3247BD9CA003021ED /* ContentView.swift */; };
 		569A75F6247BD9CA003021ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569A75F5247BD9CA003021ED /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		568F5020248727DA00AAC556 /* Problem0003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0003.swift; sourceTree = "<group>"; };
+		568F50232487287E00AAC556 /* PrimeFactors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeFactors.swift; sourceTree = "<group>"; };
 		569A75EE247BD9CA003021ED /* ProjectEuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		569A75F1247BD9CA003021ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		569A75F3247BD9CA003021ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		568F50222487286F00AAC556 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				568F50232487287E00AAC556 /* PrimeFactors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		569A75E5247BD9C9003021ED = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				569A7615247BDBD2003021ED /* Problems */,
+				568F50222487286F00AAC556 /* Helpers */,
 				569A75F1247BD9CA003021ED /* AppDelegate.swift */,
 				569A75F3247BD9CA003021ED /* ContentView.swift */,
 				569A7616247BDE98003021ED /* EulerManager.swift */,
@@ -119,6 +132,7 @@
 			children = (
 				569A7612247BDA9B003021ED /* Problem0001.swift */,
 				56BBD289248631FA008FFC8A /* Problem0002.swift */,
+				568F5020248727DA00AAC556 /* Problem0003.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -226,9 +240,11 @@
 			files = (
 				569A75F4247BD9CA003021ED /* ContentView.swift in Sources */,
 				569A7617247BDE98003021ED /* EulerManager.swift in Sources */,
+				568F5021248727DA00AAC556 /* Problem0003.swift in Sources */,
 				569A75F2247BD9CA003021ED /* AppDelegate.swift in Sources */,
 				56BBD28A248631FA008FFC8A /* Problem0002.swift in Sources */,
 				569A7613247BDA9B003021ED /* Problem0001.swift in Sources */,
+				568F50242487287E00AAC556 /* PrimeFactors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

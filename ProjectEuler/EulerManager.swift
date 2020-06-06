@@ -3,6 +3,7 @@ import Combine
 enum EulerProblemNumber: Int, CaseIterable {
     case p1 = 1
     case p2
+    case p3
 }
 
 class EulerManager: ObservableObject {
@@ -22,6 +23,7 @@ class EulerManager: ObservableObject {
         switch problem {
         case .p1: answer = Problem0001().description
         case .p2: answer = Problem0002().description
+        case .p3: answer = Problem0003().description
         }
 
         problems[problem.rawValue - 1].answer = answer
