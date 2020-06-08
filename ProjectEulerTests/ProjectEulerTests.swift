@@ -10,11 +10,29 @@ import XCTest
 @testable import ProjectEuler
 
 class ProjectEulerTests: XCTestCase {
+    // Problem testing
     func testProblems() {
         XCTAssertEqual(Problem0001(10), 23)
         XCTAssertEqual(Problem0002(100), 44)
         XCTAssertEqual(Problem0003(13_195), 29)
         XCTAssertEqual(Problem0004(99), 9009)
+        XCTAssertEqual(Problem0005(10), 2520)
+    }
+
+    // Helper function testing
+    func testIsPrime() {
+        for number: UInt in 0...100 {
+            let primes: [UInt] = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+            XCTAssertEqual(number.isPrime, primes.contains(number))
+        }
+        XCTAssertEqual(UInt(4_294_967_291).isPrime, true)
+        XCTAssertEqual(UInt(4_294_967_311).isPrime, true)
+    }
+
+    func testPower() {
+        XCTAssertEqual(UInt(2).power(by: 2), 4)
+        XCTAssertEqual(UInt(3).power(by: 5), 243)
+        XCTAssertEqual(UInt(20).power(by: 4), 160_000)
     }
 
     func testPrimeFactors() {

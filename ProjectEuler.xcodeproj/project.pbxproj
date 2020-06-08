@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5612BE9A248EFCB00076D631 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612BE99248EFCB00076D631 /* Power.swift */; };
 		568F5021248727DA00AAC556 /* Problem0003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F5020248727DA00AAC556 /* Problem0003.swift */; };
 		568F50242487287E00AAC556 /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F50232487287E00AAC556 /* PrimeFactors.swift */; };
 		569A75F2247BD9CA003021ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A75F1247BD9CA003021ED /* AppDelegate.swift */; };
@@ -19,6 +20,8 @@
 		569A7617247BDE98003021ED /* EulerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A7616247BDE98003021ED /* EulerManager.swift */; };
 		56BBD28A248631FA008FFC8A /* Problem0002.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBD289248631FA008FFC8A /* Problem0002.swift */; };
 		56BDF054248B1D1F00AC84F4 /* Problem0004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BDF053248B1D1F00AC84F4 /* Problem0004.swift */; };
+		56D53B07248EF58600631233 /* Problem0005.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D53B06248EF58600631233 /* Problem0005.swift */; };
+		56D53B09248EF65200631233 /* IsPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D53B08248EF65200631233 /* IsPrime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5612BE99248EFCB00076D631 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
 		568F5020248727DA00AAC556 /* Problem0003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0003.swift; sourceTree = "<group>"; };
 		568F50232487287E00AAC556 /* PrimeFactors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeFactors.swift; sourceTree = "<group>"; };
 		569A75EE247BD9CA003021ED /* ProjectEuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +53,8 @@
 		569A7616247BDE98003021ED /* EulerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerManager.swift; sourceTree = "<group>"; };
 		56BBD289248631FA008FFC8A /* Problem0002.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0002.swift; sourceTree = "<group>"; };
 		56BDF053248B1D1F00AC84F4 /* Problem0004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0004.swift; sourceTree = "<group>"; };
+		56D53B06248EF58600631233 /* Problem0005.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0005.swift; sourceTree = "<group>"; };
+		56D53B08248EF65200631233 /* IsPrime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPrime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,8 @@
 		568F50222487286F00AAC556 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				56D53B08248EF65200631233 /* IsPrime.swift */,
+				5612BE99248EFCB00076D631 /* Power.swift */,
 				568F50232487287E00AAC556 /* PrimeFactors.swift */,
 			);
 			path = Helpers;
@@ -136,6 +144,7 @@
 				56BBD289248631FA008FFC8A /* Problem0002.swift */,
 				568F5020248727DA00AAC556 /* Problem0003.swift */,
 				56BDF053248B1D1F00AC84F4 /* Problem0004.swift */,
+				56D53B06248EF58600631233 /* Problem0005.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -245,9 +254,12 @@
 				56BDF054248B1D1F00AC84F4 /* Problem0004.swift in Sources */,
 				569A7617247BDE98003021ED /* EulerManager.swift in Sources */,
 				568F5021248727DA00AAC556 /* Problem0003.swift in Sources */,
+				5612BE9A248EFCB00076D631 /* Power.swift in Sources */,
+				56D53B07248EF58600631233 /* Problem0005.swift in Sources */,
 				569A75F2247BD9CA003021ED /* AppDelegate.swift in Sources */,
 				56BBD28A248631FA008FFC8A /* Problem0002.swift in Sources */,
 				569A7613247BDA9B003021ED /* Problem0001.swift in Sources */,
+				56D53B09248EF65200631233 /* IsPrime.swift in Sources */,
 				568F50242487287E00AAC556 /* PrimeFactors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
