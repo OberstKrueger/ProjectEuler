@@ -17,6 +17,7 @@ class ProjectEulerTests: XCTestCase {
         XCTAssertEqual(Problem0003(13_195), 29)
         XCTAssertEqual(Problem0004(99), 9009)
         XCTAssertEqual(Problem0005(10), 2520)
+        XCTAssertEqual(Problem0006(10), 2640)
     }
 
     // Helper function testing
