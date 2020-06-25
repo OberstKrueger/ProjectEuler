@@ -7,20 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5604F5C724A50DB9005039C1 /* EulerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A7616247BDE98003021ED /* EulerManager.swift */; };
+		5604F5C824A50DB9005039C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A75F3247BD9CA003021ED /* ContentView.swift */; };
+		5604F5C924A50DB9005039C1 /* ProjectEulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D0885224A50A7900B77033 /* ProjectEulerApp.swift */; };
+		5604F5CA24A50DBE005039C1 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612BE99248EFCB00076D631 /* Power.swift */; };
+		5604F5CB24A50DBE005039C1 /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F50232487287E00AAC556 /* PrimeFactors.swift */; };
+		5604F5CC24A50DBE005039C1 /* IsPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D53B08248EF65200631233 /* IsPrime.swift */; };
+		5604F5CD24A50DC4005039C1 /* Problem0004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BDF053248B1D1F00AC84F4 /* Problem0004.swift */; };
+		5604F5CE24A50DC4005039C1 /* Problem0005.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D53B06248EF58600631233 /* Problem0005.swift */; };
+		5604F5CF24A50DC4005039C1 /* Problem0002.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBD289248631FA008FFC8A /* Problem0002.swift */; };
+		5604F5D024A50DC4005039C1 /* Problem0001.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A7612247BDA9B003021ED /* Problem0001.swift */; };
+		5604F5D124A50DC4005039C1 /* Problem0003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F5020248727DA00AAC556 /* Problem0003.swift */; };
+		5604F5D224A50DC4005039C1 /* Problem0006.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569319BE24999A9D00EA6EE5 /* Problem0006.swift */; };
 		5612BE9A248EFCB00076D631 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612BE99248EFCB00076D631 /* Power.swift */; };
 		568F5021248727DA00AAC556 /* Problem0003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F5020248727DA00AAC556 /* Problem0003.swift */; };
 		568F50242487287E00AAC556 /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F50232487287E00AAC556 /* PrimeFactors.swift */; };
 		569319BF24999A9D00EA6EE5 /* Problem0006.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569319BE24999A9D00EA6EE5 /* Problem0006.swift */; };
-		569A75F2247BD9CA003021ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A75F1247BD9CA003021ED /* AppDelegate.swift */; };
 		569A75F4247BD9CA003021ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A75F3247BD9CA003021ED /* ContentView.swift */; };
-		569A75F6247BD9CA003021ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569A75F5247BD9CA003021ED /* Assets.xcassets */; };
-		569A75F9247BD9CA003021ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569A75F8247BD9CA003021ED /* Preview Assets.xcassets */; };
-		569A75FC247BD9CB003021ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569A75FA247BD9CB003021ED /* Main.storyboard */; };
 		569A7608247BD9CB003021ED /* ProjectEulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A7607247BD9CB003021ED /* ProjectEulerTests.swift */; };
 		569A7613247BDA9B003021ED /* Problem0001.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A7612247BDA9B003021ED /* Problem0001.swift */; };
 		569A7617247BDE98003021ED /* EulerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A7616247BDE98003021ED /* EulerManager.swift */; };
 		56BBD28A248631FA008FFC8A /* Problem0002.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBD289248631FA008FFC8A /* Problem0002.swift */; };
 		56BDF054248B1D1F00AC84F4 /* Problem0004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BDF053248B1D1F00AC84F4 /* Problem0004.swift */; };
+		56D0885324A50A7900B77033 /* ProjectEulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D0885224A50A7900B77033 /* ProjectEulerApp.swift */; };
 		56D53B07248EF58600631233 /* Problem0005.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D53B06248EF58600631233 /* Problem0005.swift */; };
 		56D53B09248EF65200631233 /* IsPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D53B08248EF65200631233 /* IsPrime.swift */; };
 /* End PBXBuildFile section */
@@ -36,30 +45,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5604F5B824A50D99005039C1 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5604F5C324A50D99005039C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5612BE99248EFCB00076D631 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
 		568F5020248727DA00AAC556 /* Problem0003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0003.swift; sourceTree = "<group>"; };
 		568F50232487287E00AAC556 /* PrimeFactors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeFactors.swift; sourceTree = "<group>"; };
 		569319BE24999A9D00EA6EE5 /* Problem0006.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0006.swift; sourceTree = "<group>"; };
-		569A75EE247BD9CA003021ED /* ProjectEuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		569A75F1247BD9CA003021ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		569A75EE247BD9CA003021ED /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		569A75F3247BD9CA003021ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		569A75F5247BD9CA003021ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		569A75F8247BD9CA003021ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		569A75FB247BD9CB003021ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		569A75FD247BD9CB003021ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		569A75FE247BD9CB003021ED /* ProjectEuler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectEuler.entitlements; sourceTree = "<group>"; };
-		569A7603247BD9CB003021ED /* ProjectEulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		569A7603247BD9CB003021ED /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		569A7607247BD9CB003021ED /* ProjectEulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEulerTests.swift; sourceTree = "<group>"; };
 		569A7609247BD9CB003021ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		569A7612247BDA9B003021ED /* Problem0001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0001.swift; sourceTree = "<group>"; };
 		569A7616247BDE98003021ED /* EulerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerManager.swift; sourceTree = "<group>"; };
 		56BBD289248631FA008FFC8A /* Problem0002.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0002.swift; sourceTree = "<group>"; };
 		56BDF053248B1D1F00AC84F4 /* Problem0004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0004.swift; sourceTree = "<group>"; };
+		56D0885224A50A7900B77033 /* ProjectEulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEulerApp.swift; sourceTree = "<group>"; };
 		56D53B06248EF58600631233 /* Problem0005.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0005.swift; sourceTree = "<group>"; };
 		56D53B08248EF65200631233 /* IsPrime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPrime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5604F5B524A50D99005039C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		569A75EB247BD9C9003021ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,6 +92,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5604F5B324A50C4B005039C1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				569A7615247BDBD2003021ED /* Problems */,
+				568F50222487286F00AAC556 /* Helpers */,
+				569A75F3247BD9CA003021ED /* ContentView.swift */,
+				569A7616247BDE98003021ED /* EulerManager.swift */,
+				56D0885224A50A7900B77033 /* ProjectEulerApp.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5604F5B924A50D99005039C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5604F5C324A50D99005039C1 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		568F50222487286F00AAC556 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +125,9 @@
 		569A75E5247BD9C9003021ED = {
 			isa = PBXGroup;
 			children = (
-				569A75F0247BD9CA003021ED /* ProjectEuler */,
+				5604F5B324A50C4B005039C1 /* Shared */,
+				569A75F0247BD9CA003021ED /* Mac */,
+				5604F5B924A50D99005039C1 /* iOS */,
 				569A7606247BD9CB003021ED /* ProjectEulerTests */,
 				569A75EF247BD9CA003021ED /* Products */,
 			);
@@ -99,35 +136,20 @@
 		569A75EF247BD9CA003021ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				569A75EE247BD9CA003021ED /* ProjectEuler.app */,
-				569A7603247BD9CB003021ED /* ProjectEulerTests.xctest */,
+				569A75EE247BD9CA003021ED /* macOS.app */,
+				569A7603247BD9CB003021ED /* Tests.xctest */,
+				5604F5B824A50D99005039C1 /* iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		569A75F0247BD9CA003021ED /* ProjectEuler */ = {
+		569A75F0247BD9CA003021ED /* Mac */ = {
 			isa = PBXGroup;
 			children = (
-				569A7615247BDBD2003021ED /* Problems */,
-				568F50222487286F00AAC556 /* Helpers */,
-				569A75F1247BD9CA003021ED /* AppDelegate.swift */,
-				569A75F3247BD9CA003021ED /* ContentView.swift */,
-				569A7616247BDE98003021ED /* EulerManager.swift */,
-				569A75F5247BD9CA003021ED /* Assets.xcassets */,
-				569A75FA247BD9CB003021ED /* Main.storyboard */,
 				569A75FD247BD9CB003021ED /* Info.plist */,
 				569A75FE247BD9CB003021ED /* ProjectEuler.entitlements */,
-				569A75F7247BD9CA003021ED /* Preview Content */,
 			);
-			path = ProjectEuler;
-			sourceTree = "<group>";
-		};
-		569A75F7247BD9CA003021ED /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				569A75F8247BD9CA003021ED /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = Mac;
 			sourceTree = "<group>";
 		};
 		569A7606247BD9CB003021ED /* ProjectEulerTests */ = {
@@ -155,9 +177,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		569A75ED247BD9C9003021ED /* ProjectEuler */ = {
+		5604F5B724A50D99005039C1 /* iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 569A760C247BD9CB003021ED /* Build configuration list for PBXNativeTarget "ProjectEuler" */;
+			buildConfigurationList = 5604F5C424A50D99005039C1 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				5604F5B424A50D99005039C1 /* Sources */,
+				5604F5B524A50D99005039C1 /* Frameworks */,
+				5604F5B624A50D99005039C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = 5604F5B824A50D99005039C1 /* iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		569A75ED247BD9C9003021ED /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569A760C247BD9CB003021ED /* Build configuration list for PBXNativeTarget "macOS" */;
 			buildPhases = (
 				569A75EA247BD9C9003021ED /* Sources */,
 				569A75EB247BD9C9003021ED /* Frameworks */,
@@ -167,14 +206,14 @@
 			);
 			dependencies = (
 			);
-			name = ProjectEuler;
+			name = macOS;
 			productName = ProjectEuler;
-			productReference = 569A75EE247BD9CA003021ED /* ProjectEuler.app */;
+			productReference = 569A75EE247BD9CA003021ED /* macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		569A7602247BD9CB003021ED /* ProjectEulerTests */ = {
+		569A7602247BD9CB003021ED /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 569A760F247BD9CB003021ED /* Build configuration list for PBXNativeTarget "ProjectEulerTests" */;
+			buildConfigurationList = 569A760F247BD9CB003021ED /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
 				569A75FF247BD9CB003021ED /* Sources */,
 				569A7600247BD9CB003021ED /* Frameworks */,
@@ -185,9 +224,9 @@
 			dependencies = (
 				569A7605247BD9CB003021ED /* PBXTargetDependency */,
 			);
-			name = ProjectEulerTests;
+			name = Tests;
 			productName = ProjectEulerTests;
-			productReference = 569A7603247BD9CB003021ED /* ProjectEulerTests.xctest */;
+			productReference = 569A7603247BD9CB003021ED /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,10 +235,13 @@
 		569A75E6247BD9C9003021ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Paul Krueger";
 				TargetAttributes = {
+					5604F5B724A50D99005039C1 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					569A75ED247BD9C9003021ED = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -222,20 +264,25 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				569A75ED247BD9C9003021ED /* ProjectEuler */,
-				569A7602247BD9CB003021ED /* ProjectEulerTests */,
+				569A75ED247BD9C9003021ED /* macOS */,
+				5604F5B724A50D99005039C1 /* iOS */,
+				569A7602247BD9CB003021ED /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5604F5B624A50D99005039C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		569A75EC247BD9C9003021ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				569A75FC247BD9CB003021ED /* Main.storyboard in Resources */,
-				569A75F9247BD9CA003021ED /* Preview Assets.xcassets in Resources */,
-				569A75F6247BD9CA003021ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +296,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5604F5B424A50D99005039C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5604F5CB24A50DBE005039C1 /* PrimeFactors.swift in Sources */,
+				5604F5D124A50DC4005039C1 /* Problem0003.swift in Sources */,
+				5604F5CC24A50DBE005039C1 /* IsPrime.swift in Sources */,
+				5604F5CF24A50DC4005039C1 /* Problem0002.swift in Sources */,
+				5604F5CE24A50DC4005039C1 /* Problem0005.swift in Sources */,
+				5604F5C824A50DB9005039C1 /* ContentView.swift in Sources */,
+				5604F5C724A50DB9005039C1 /* EulerManager.swift in Sources */,
+				5604F5D224A50DC4005039C1 /* Problem0006.swift in Sources */,
+				5604F5C924A50DB9005039C1 /* ProjectEulerApp.swift in Sources */,
+				5604F5CD24A50DC4005039C1 /* Problem0004.swift in Sources */,
+				5604F5D024A50DC4005039C1 /* Problem0001.swift in Sources */,
+				5604F5CA24A50DBE005039C1 /* Power.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		569A75EA247BD9C9003021ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,12 +325,12 @@
 				568F5021248727DA00AAC556 /* Problem0003.swift in Sources */,
 				5612BE9A248EFCB00076D631 /* Power.swift in Sources */,
 				56D53B07248EF58600631233 /* Problem0005.swift in Sources */,
-				569A75F2247BD9CA003021ED /* AppDelegate.swift in Sources */,
 				569319BF24999A9D00EA6EE5 /* Problem0006.swift in Sources */,
 				56BBD28A248631FA008FFC8A /* Problem0002.swift in Sources */,
 				569A7613247BDA9B003021ED /* Problem0001.swift in Sources */,
 				56D53B09248EF65200631233 /* IsPrime.swift in Sources */,
 				568F50242487287E00AAC556 /* PrimeFactors.swift in Sources */,
+				56D0885324A50A7900B77033 /* ProjectEulerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,23 +347,55 @@
 /* Begin PBXTargetDependency section */
 		569A7605247BD9CB003021ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 569A75ED247BD9C9003021ED /* ProjectEuler */;
+			target = 569A75ED247BD9C9003021ED /* macOS */;
 			targetProxy = 569A7604247BD9CB003021ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		569A75FA247BD9CB003021ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				569A75FB247BD9CB003021ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		5604F5C524A50D99005039C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM4N24RK3Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technology.krueger.ProjectEuler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5604F5C624A50D99005039C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM4N24RK3Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technology.krueger.ProjectEuler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		569A760A247BD9CB003021ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -324,6 +422,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -348,7 +447,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -384,6 +484,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -402,7 +503,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -414,20 +516,19 @@
 		569A760D247BD9CB003021ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ProjectEuler/ProjectEuler.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Mac/ProjectEuler.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"ProjectEuler/Preview Content\"";
 				DEVELOPMENT_TEAM = ZM4N24RK3Z;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ProjectEuler/Info.plist;
+				INFOPLIST_FILE = Mac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				PRODUCT_BUNDLE_IDENTIFIER = technology.krueger.ProjectEuler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -437,20 +538,19 @@
 		569A760E247BD9CB003021ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ProjectEuler/ProjectEuler.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Mac/ProjectEuler.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"ProjectEuler/Preview Content\"";
 				DEVELOPMENT_TEAM = ZM4N24RK3Z;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ProjectEuler/Info.plist;
+				INFOPLIST_FILE = Mac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				PRODUCT_BUNDLE_IDENTIFIER = technology.krueger.ProjectEuler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -504,6 +604,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5604F5C424A50D99005039C1 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5604F5C524A50D99005039C1 /* Debug */,
+				5604F5C624A50D99005039C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		569A75E9247BD9C9003021ED /* Build configuration list for PBXProject "ProjectEuler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -513,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		569A760C247BD9CB003021ED /* Build configuration list for PBXNativeTarget "ProjectEuler" */ = {
+		569A760C247BD9CB003021ED /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				569A760D247BD9CB003021ED /* Debug */,
@@ -522,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		569A760F247BD9CB003021ED /* Build configuration list for PBXNativeTarget "ProjectEulerTests" */ = {
+		569A760F247BD9CB003021ED /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				569A7610247BD9CB003021ED /* Debug */,

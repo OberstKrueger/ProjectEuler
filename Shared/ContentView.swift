@@ -29,7 +29,6 @@ struct ContentView: View {
                 Divider()
             }
         }
-        .frame(maxWidth: 640)
     }
 }
 
