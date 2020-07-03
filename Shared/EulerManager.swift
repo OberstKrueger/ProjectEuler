@@ -1,4 +1,5 @@
 import Combine
+import Foundation
 
 enum EulerProblemNumber: Int, CaseIterable {
     case p1 = 1
@@ -21,18 +22,22 @@ class EulerManager: ObservableObject {
     }
 
     func processProblem(_ problem: EulerProblemNumber) {
-        let answer: String
+        DispatchQueue.global(qos: .userInitiated).async {
+            let answer: String
 
-        switch problem {
-        case .p1: answer = Problem0001().description
-        case .p2: answer = Problem0002().description
-        case .p3: answer = Problem0003().description
-        case .p4: answer = Problem0004().description
-        case .p5: answer = Problem0005().description
-        case .p6: answer = Problem0006().description
+            switch problem {
+            case .p1: answer = Problem0001().description
+            case .p2: answer = Problem0002().description
+            case .p3: answer = Problem0003().description
+            case .p4: answer = Problem0004().description
+            case .p5: answer = Problem0005().description
+            case .p6: answer = Problem0006().description
+            }
+
+            DispatchQueue.main.async {
+                self.problems[problem.rawValue - 1].answer = answer
+            }
         }
-
-        problems[problem.rawValue - 1].answer = answer
     }
 }
 
