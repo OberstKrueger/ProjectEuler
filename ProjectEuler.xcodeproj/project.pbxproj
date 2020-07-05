@@ -20,6 +20,8 @@
 		5604F5D124A50DC4005039C1 /* Problem0003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F5020248727DA00AAC556 /* Problem0003.swift */; };
 		5604F5D224A50DC4005039C1 /* Problem0006.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569319BE24999A9D00EA6EE5 /* Problem0006.swift */; };
 		5612BE9A248EFCB00076D631 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612BE99248EFCB00076D631 /* Power.swift */; };
+		5661DD8B24B1EF3100FE16D4 /* Problem0007.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661DD8A24B1EF3100FE16D4 /* Problem0007.swift */; };
+		5661DD8C24B1EF3100FE16D4 /* Problem0007.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661DD8A24B1EF3100FE16D4 /* Problem0007.swift */; };
 		568F5021248727DA00AAC556 /* Problem0003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F5020248727DA00AAC556 /* Problem0003.swift */; };
 		568F50242487287E00AAC556 /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F50232487287E00AAC556 /* PrimeFactors.swift */; };
 		569319BF24999A9D00EA6EE5 /* Problem0006.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569319BE24999A9D00EA6EE5 /* Problem0006.swift */; };
@@ -48,6 +50,7 @@
 		5604F5B824A50D99005039C1 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5604F5C324A50D99005039C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5612BE99248EFCB00076D631 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		5661DD8A24B1EF3100FE16D4 /* Problem0007.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0007.swift; sourceTree = "<group>"; };
 		568F5020248727DA00AAC556 /* Problem0003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0003.swift; sourceTree = "<group>"; };
 		568F50232487287E00AAC556 /* PrimeFactors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeFactors.swift; sourceTree = "<group>"; };
 		569319BE24999A9D00EA6EE5 /* Problem0006.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0006.swift; sourceTree = "<group>"; };
@@ -170,6 +173,7 @@
 				56BDF053248B1D1F00AC84F4 /* Problem0004.swift */,
 				56D53B06248EF58600631233 /* Problem0005.swift */,
 				569319BE24999A9D00EA6EE5 /* Problem0006.swift */,
+				5661DD8A24B1EF3100FE16D4 /* Problem0007.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -307,6 +311,7 @@
 				5604F5CE24A50DC4005039C1 /* Problem0005.swift in Sources */,
 				5604F5C824A50DB9005039C1 /* ContentView.swift in Sources */,
 				5604F5C724A50DB9005039C1 /* EulerManager.swift in Sources */,
+				5661DD8C24B1EF3100FE16D4 /* Problem0007.swift in Sources */,
 				5604F5D224A50DC4005039C1 /* Problem0006.swift in Sources */,
 				5604F5C924A50DB9005039C1 /* ProjectEulerApp.swift in Sources */,
 				5604F5CD24A50DC4005039C1 /* Problem0004.swift in Sources */,
@@ -326,6 +331,7 @@
 				5612BE9A248EFCB00076D631 /* Power.swift in Sources */,
 				56D53B07248EF58600631233 /* Problem0005.swift in Sources */,
 				569319BF24999A9D00EA6EE5 /* Problem0006.swift in Sources */,
+				5661DD8B24B1EF3100FE16D4 /* Problem0007.swift in Sources */,
 				56BBD28A248631FA008FFC8A /* Problem0002.swift in Sources */,
 				569A7613247BDA9B003021ED /* Problem0001.swift in Sources */,
 				56D53B09248EF65200631233 /* IsPrime.swift in Sources */,

@@ -23,6 +23,7 @@ class EulerManager: ObservableObject {
             case .p4: answer = Problem0004().description
             case .p5: answer = Problem0005().description
             case .p6: answer = Problem0006().description
+            case .p7: answer = Problem0007().description
             }
 
             DispatchQueue.main.async {
@@ -40,6 +41,7 @@ enum EulerProblemNumber: Int, CaseIterable {
     case p4
     case p5
     case p6
+    case p7
 }
 
 enum EulerProblemState {
