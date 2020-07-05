@@ -18,12 +18,14 @@ struct ContentView: View {
                 HStack {
                     Text(problem.id)
                     Spacer()
-                    if problem.answer == nil {
+                    if problem.state == .answered {
+                        Text(problem.answer)
+                    } else if problem.state == .processing {
+                        Text("Processing...")
+                    } else if problem.state == .unanswered {
                         Button("Process") {
                             self.euler.processProblem(problem.problem)
                         }
-                    } else {
-                        Text(problem.answer!)
                     }
                 }.padding()
                 Divider()
