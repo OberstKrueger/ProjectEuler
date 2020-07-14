@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ProjectEuler
+@testable import macOS
 
 class ProjectEulerTests: XCTestCase {
     // Problem testing
