@@ -17,15 +17,16 @@ class EulerManager: ObservableObject {
             let answer: String
 
             switch problem {
-            case .p1: answer = Problem0001().description
-            case .p2: answer = Problem0002().description
-            case .p3: answer = Problem0003().description
-            case .p4: answer = Problem0004().description
-            case .p5: answer = Problem0005().description
-            case .p6: answer = Problem0006().description
-            case .p7: answer = Problem0007().description
-            case .p8: answer = Problem0008().description
-            case .p9: answer = Problem0009().description
+            case .p1:  answer = Problem0001().description
+            case .p2:  answer = Problem0002().description
+            case .p3:  answer = Problem0003().description
+            case .p4:  answer = Problem0004().description
+            case .p5:  answer = Problem0005().description
+            case .p6:  answer = Problem0006().description
+            case .p7:  answer = Problem0007().description
+            case .p8:  answer = Problem0008().description
+            case .p9:  answer = Problem0009().description
+            case .p10: answer = Problem0010().description
             }
 
             DispatchQueue.main.async {
@@ -46,6 +47,7 @@ enum EulerProblemNumber: Int, CaseIterable {
     case p7
     case p8
     case p9
+    case p10
 }
 
 enum EulerProblemState {
