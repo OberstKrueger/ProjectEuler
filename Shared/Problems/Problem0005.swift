@@ -21,7 +21,7 @@ func Problem0005(_ input: UInt = 20) -> UInt {
         }
     }
     for (key, value) in primeFactors {
-        result *= key.power(by: value)
+        result *= key ^ value
     }
 
     return result

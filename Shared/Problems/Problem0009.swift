@@ -17,8 +17,8 @@ func Problem0009(_ input: UInt = 1_000) -> UInt {
         for secondNumber in (firstNumber + 1)...input {
             if secondNumber * (firstNumber + secondNumber) == halfInput {
                 return (2 * firstNumber * secondNumber) *
-                    ((secondNumber * secondNumber) - (firstNumber * firstNumber)) *
-                    ((firstNumber * firstNumber) + (secondNumber * secondNumber))
+                    ((secondNumber ^ 2) - (firstNumber ^ 2)) *
+                    ((firstNumber ^ 2) + (secondNumber ^ 2))
             }
         }
     }
