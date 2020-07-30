@@ -4,33 +4,32 @@ struct ContentView: View {
     @ObservedObject var euler = EulerManager()
 
     var body: some View {
-        ScrollView {
-            HStack {
-                Text("Project Euler")
-                    .font(.headline)
-                Spacer()
+        NavigationView {
+            ScrollView {
+                ForEach(euler.problems) { problem in
+                    HStack {
+                        Text(problem.id)
+                        Spacer()
+                        if problem.state == .answered {
+                            Text("\(problem.answer) (\(problem.speed))")
+                        } else if problem.state == .processing {
+                            Text("Processing...")
+                        } else if problem.state == .unanswered {
+                            Button("Process") {
+                                self.euler.processProblem(problem.problem)
+                            }
+                        }
+                    }.padding()
+                    Divider()
+                }
                 Button("Process All") {
                     self.euler.processAllProblems()
                 }
-            }.padding()
-            Divider()
-            ForEach(euler.problems) { problem in
-                HStack {
-                    Text(problem.id)
-                    Spacer()
-                    if problem.state == .answered {
-                        Text("\(problem.answer) (\(problem.speed))")
-                    } else if problem.state == .processing {
-                        Text("Processing...")
-                    } else if problem.state == .unanswered {
-                        Button("Process") {
-                            self.euler.processProblem(problem.problem)
-                        }
-                    }
-                }.padding()
-                Divider()
+                .padding()
             }
+            .navigationTitle("Project Euler")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
