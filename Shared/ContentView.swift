@@ -19,7 +19,7 @@ struct ContentView: View {
                     Text(problem.id)
                     Spacer()
                     if problem.state == .answered {
-                        Text(problem.answer)
+                        Text("\(problem.answer) (\(problem.speed))")
                     } else if problem.state == .processing {
                         Text("Processing...")
                     } else if problem.state == .unanswered {

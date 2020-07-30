@@ -13,8 +13,8 @@ class EulerManager: ObservableObject {
     func processProblem(_ problem: EulerProblemNumber) {
         self.problems[problem.rawValue - 1].state = .processing
         DispatchQueue.global(qos: .userInitiated).async {
-
             let answer: String
+            let startTime = Date()
 
             switch problem {
             case .p1:  answer = Problem0001().description
@@ -30,8 +30,11 @@ class EulerManager: ObservableObject {
             case .p11: answer = Problem0011().description
             }
 
+            let endTime = Date()
+
             DispatchQueue.main.async {
                 self.problems[problem.rawValue - 1].answer = answer
+                self.problems[problem.rawValue - 1].completionSpeed = endTime.timeIntervalSince(startTime)
                 self.problems[problem.rawValue - 1].state = .answered
             }
         }
@@ -61,10 +64,21 @@ enum EulerProblemState {
 struct EulerProblem: Identifiable {
     let problem: EulerProblemNumber
     var answer: String = ""
+    var completionSpeed: TimeInterval = 0
     var state: EulerProblemState = .unanswered
 
     var id: String {
         return "Problem \(problem.rawValue)"
+    }
+
+    var speed: String {
+        let formatter = NumberFormatter()
+
+        formatter.maximumFractionDigits = 2
+        formatter.minimumFractionDigits = 2
+
+        // Forced unwrapped due to the value never being not a number.
+        return formatter.string(for: completionSpeed)!
     }
 
     init(_ number: EulerProblemNumber) {
