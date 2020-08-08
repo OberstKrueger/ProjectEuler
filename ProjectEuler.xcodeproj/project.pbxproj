@@ -46,6 +46,12 @@
 		56D0885324A50A7900B77033 /* ProjectEulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D0885224A50A7900B77033 /* ProjectEulerApp.swift */; };
 		56D53B07248EF58600631233 /* Problem0005.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D53B06248EF58600631233 /* Problem0005.swift */; };
 		56D53B09248EF65200631233 /* IsPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D53B08248EF65200631233 /* IsPrime.swift */; };
+		56FC20A324DE9BC000A065E9 /* Problem0012.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC20A224DE9BC000A065E9 /* Problem0012.swift */; };
+		56FC20A424DE9BC000A065E9 /* Problem0012.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC20A224DE9BC000A065E9 /* Problem0012.swift */; };
+		56FC20A624DE9CB900A065E9 /* TriangleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC20A524DE9CB900A065E9 /* TriangleNumber.swift */; };
+		56FC20A724DE9CB900A065E9 /* TriangleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC20A524DE9CB900A065E9 /* TriangleNumber.swift */; };
+		56FC20A924DEA04C00A065E9 /* Factors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC20A824DEA04C00A065E9 /* Factors.swift */; };
+		56FC20AA24DEA04C00A065E9 /* Factors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC20A824DEA04C00A065E9 /* Factors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +92,9 @@
 		56D0885224A50A7900B77033 /* ProjectEulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEulerApp.swift; sourceTree = "<group>"; };
 		56D53B06248EF58600631233 /* Problem0005.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0005.swift; sourceTree = "<group>"; };
 		56D53B08248EF65200631233 /* IsPrime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPrime.swift; sourceTree = "<group>"; };
+		56FC20A224DE9BC000A065E9 /* Problem0012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0012.swift; sourceTree = "<group>"; };
+		56FC20A524DE9CB900A065E9 /* TriangleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleNumber.swift; sourceTree = "<group>"; };
+		56FC20A824DEA04C00A065E9 /* Factors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,9 +146,11 @@
 			isa = PBXGroup;
 			children = (
 				56D53B08248EF65200631233 /* IsPrime.swift */,
+				56FC20A824DEA04C00A065E9 /* Factors.swift */,
 				5612BE99248EFCB00076D631 /* Power.swift */,
 				568F50232487287E00AAC556 /* PrimeFactors.swift */,
 				56BD564424CF9D15002DF2F4 /* PrimeSieve.swift */,
+				56FC20A524DE9CB900A065E9 /* TriangleNumber.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -198,6 +209,7 @@
 				563957AA24CF46A5007B413D /* Problem0009.swift */,
 				56BD564124CF9B07002DF2F4 /* Problem0010.swift */,
 				56C518B624D34C670028F825 /* Problem0011.swift */,
+				56FC20A224DE9BC000A065E9 /* Problem0012.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -331,9 +343,12 @@
 				5604F5CB24A50DBE005039C1 /* PrimeFactors.swift in Sources */,
 				5604F5D124A50DC4005039C1 /* Problem0003.swift in Sources */,
 				5604F5CC24A50DBE005039C1 /* IsPrime.swift in Sources */,
+				56FC20A724DE9CB900A065E9 /* TriangleNumber.swift in Sources */,
 				56BD564324CF9B07002DF2F4 /* Problem0010.swift in Sources */,
+				56FC20A424DE9BC000A065E9 /* Problem0012.swift in Sources */,
 				5604F5CF24A50DC4005039C1 /* Problem0002.swift in Sources */,
 				5604F5CE24A50DC4005039C1 /* Problem0005.swift in Sources */,
+				56FC20AA24DEA04C00A065E9 /* Factors.swift in Sources */,
 				5604F5C824A50DB9005039C1 /* ContentView.swift in Sources */,
 				563957AC24CF46A5007B413D /* Problem0009.swift in Sources */,
 				5604F5C724A50DB9005039C1 /* EulerManager.swift in Sources */,
@@ -357,9 +372,12 @@
 				569A75F4247BD9CA003021ED /* ContentView.swift in Sources */,
 				56BDF054248B1D1F00AC84F4 /* Problem0004.swift in Sources */,
 				569A7617247BDE98003021ED /* EulerManager.swift in Sources */,
+				56FC20A624DE9CB900A065E9 /* TriangleNumber.swift in Sources */,
 				56BD564224CF9B07002DF2F4 /* Problem0010.swift in Sources */,
+				56FC20A324DE9BC000A065E9 /* Problem0012.swift in Sources */,
 				568F5021248727DA00AAC556 /* Problem0003.swift in Sources */,
 				5612BE9A248EFCB00076D631 /* Power.swift in Sources */,
+				56FC20A924DEA04C00A065E9 /* Factors.swift in Sources */,
 				56D53B07248EF58600631233 /* Problem0005.swift in Sources */,
 				563957AB24CF46A5007B413D /* Problem0009.swift in Sources */,
 				569319BF24999A9D00EA6EE5 /* Problem0006.swift in Sources */,
