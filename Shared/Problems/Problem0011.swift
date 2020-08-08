@@ -40,19 +40,31 @@ func Problem0011() -> UInt {
     for yIndex: Int in 0...yMax {
         for xIndex: Int in 0...xMax {
             if yIndex <= yMax - 3 {
-                let possibleTotal: UInt = data[yIndex][xIndex] * data[yIndex + 1][xIndex] * data[yIndex + 2][xIndex] * data[yIndex + 3][xIndex]
+                let possibleTotal: UInt = data[yIndex][xIndex]
+                    * data[yIndex + 1][xIndex]
+                    * data[yIndex + 2][xIndex]
+                    * data[yIndex + 3][xIndex]
                 if possibleTotal > result { result = possibleTotal }
             }
             if xIndex <= xMax - 3 {
-                let possibleTotal: UInt = data[yIndex][xIndex] * data[yIndex][xIndex + 1] * data[yIndex][xIndex + 2] * data[yIndex][xIndex + 3]
+                let possibleTotal: UInt = data[yIndex][xIndex]
+                    * data[yIndex][xIndex + 1]
+                    * data[yIndex][xIndex + 2]
+                    * data[yIndex][xIndex + 3]
                 if possibleTotal > result { result = possibleTotal }
             }
             if yIndex <= yMax - 3 && xIndex <= xMax - 3 {
-                let possibleTotal: UInt = data[yIndex][xIndex] * data[yIndex + 1][xIndex + 1] * data[yIndex + 2][xIndex + 2] * data[yIndex + 3][xIndex + 3]
+                let possibleTotal: UInt = data[yIndex][xIndex]
+                    * data[yIndex + 1][xIndex + 1]
+                    * data[yIndex + 2][xIndex + 2]
+                    * data[yIndex + 3][xIndex + 3]
                 if possibleTotal > result { result = possibleTotal }
             }
             if yIndex >= 3 && xIndex <= xMax - 3 { //
-                let possibleTotal: UInt = data[yIndex][xIndex] * data[yIndex - 1][xIndex + 1] * data[yIndex - 2][xIndex + 2] * data[yIndex - 3][xIndex + 3]
+                let possibleTotal: UInt = data[yIndex][xIndex]
+                    * data[yIndex - 1][xIndex + 1]
+                    * data[yIndex - 2][xIndex + 2]
+                    * data[yIndex - 3][xIndex + 3]
                 if possibleTotal > result { result = possibleTotal }
             }
         }
