@@ -29,6 +29,7 @@ class EulerManager: ObservableObject {
             case .p10: answer = Problem0010().description
             case .p11: answer = Problem0011().description
             case .p12: answer = Problem0012().description
+            case .p13: answer = Problem0013().description
             }
 
             let endTime = Date()
@@ -55,6 +56,7 @@ enum EulerProblemNumber: Int, CaseIterable {
     case p10
     case p11
     case p12
+    case p13
 }
 
 enum EulerProblemState {
