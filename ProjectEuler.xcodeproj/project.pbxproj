@@ -24,6 +24,10 @@
 		563957AC24CF46A5007B413D /* Problem0009.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563957AA24CF46A5007B413D /* Problem0009.swift */; };
 		563D6EBD24F6E58F001812BF /* Problem0013.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563D6EBC24F6E58F001812BF /* Problem0013.swift */; };
 		563D6EBE24F6E58F001812BF /* Problem0013.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563D6EBC24F6E58F001812BF /* Problem0013.swift */; };
+		5650D5342502B597005115A9 /* Problem0014.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650D5332502B597005115A9 /* Problem0014.swift */; };
+		5650D5352502B597005115A9 /* Problem0014.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650D5332502B597005115A9 /* Problem0014.swift */; };
+		5650D5372502B612005115A9 /* Collatz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650D5362502B612005115A9 /* Collatz.swift */; };
+		5650D5382502B612005115A9 /* Collatz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650D5362502B612005115A9 /* Collatz.swift */; };
 		5661DD8B24B1EF3100FE16D4 /* Problem0007.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661DD8A24B1EF3100FE16D4 /* Problem0007.swift */; };
 		5661DD8C24B1EF3100FE16D4 /* Problem0007.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661DD8A24B1EF3100FE16D4 /* Problem0007.swift */; };
 		568830B024BDAA1100077250 /* Problem0008.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568830AF24BDAA1100077250 /* Problem0008.swift */; };
@@ -72,6 +76,8 @@
 		5612BE99248EFCB00076D631 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
 		563957AA24CF46A5007B413D /* Problem0009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0009.swift; sourceTree = "<group>"; };
 		563D6EBC24F6E58F001812BF /* Problem0013.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0013.swift; sourceTree = "<group>"; };
+		5650D5332502B597005115A9 /* Problem0014.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0014.swift; sourceTree = "<group>"; };
+		5650D5362502B612005115A9 /* Collatz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collatz.swift; sourceTree = "<group>"; };
 		5661DD8A24B1EF3100FE16D4 /* Problem0007.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0007.swift; sourceTree = "<group>"; };
 		568830AF24BDAA1100077250 /* Problem0008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0008.swift; sourceTree = "<group>"; };
 		568830B224BDAA7100077250 /* ProblemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemData.swift; sourceTree = "<group>"; };
@@ -148,8 +154,9 @@
 		568F50222487286F00AAC556 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				56D53B08248EF65200631233 /* IsPrime.swift */,
+				5650D5362502B612005115A9 /* Collatz.swift */,
 				56FC20A824DEA04C00A065E9 /* Factors.swift */,
+				56D53B08248EF65200631233 /* IsPrime.swift */,
 				5612BE99248EFCB00076D631 /* Power.swift */,
 				568F50232487287E00AAC556 /* PrimeFactors.swift */,
 				56BD564424CF9D15002DF2F4 /* PrimeSieve.swift */,
@@ -214,6 +221,7 @@
 				56C518B624D34C670028F825 /* Problem0011.swift */,
 				56FC20A224DE9BC000A065E9 /* Problem0012.swift */,
 				563D6EBC24F6E58F001812BF /* Problem0013.swift */,
+				5650D5332502B597005115A9 /* Problem0014.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -346,9 +354,11 @@
 			files = (
 				5604F5CB24A50DBE005039C1 /* PrimeFactors.swift in Sources */,
 				5604F5D124A50DC4005039C1 /* Problem0003.swift in Sources */,
+				5650D5352502B597005115A9 /* Problem0014.swift in Sources */,
 				5604F5CC24A50DBE005039C1 /* IsPrime.swift in Sources */,
 				56FC20A724DE9CB900A065E9 /* TriangleNumber.swift in Sources */,
 				56BD564324CF9B07002DF2F4 /* Problem0010.swift in Sources */,
+				5650D5382502B612005115A9 /* Collatz.swift in Sources */,
 				56FC20A424DE9BC000A065E9 /* Problem0012.swift in Sources */,
 				5604F5CF24A50DC4005039C1 /* Problem0002.swift in Sources */,
 				5604F5CE24A50DC4005039C1 /* Problem0005.swift in Sources */,
@@ -376,9 +386,11 @@
 			files = (
 				569A75F4247BD9CA003021ED /* ContentView.swift in Sources */,
 				56BDF054248B1D1F00AC84F4 /* Problem0004.swift in Sources */,
+				5650D5342502B597005115A9 /* Problem0014.swift in Sources */,
 				569A7617247BDE98003021ED /* EulerManager.swift in Sources */,
 				56FC20A624DE9CB900A065E9 /* TriangleNumber.swift in Sources */,
 				56BD564224CF9B07002DF2F4 /* Problem0010.swift in Sources */,
+				5650D5372502B612005115A9 /* Collatz.swift in Sources */,
 				56FC20A324DE9BC000A065E9 /* Problem0012.swift in Sources */,
 				568F5021248727DA00AAC556 /* Problem0003.swift in Sources */,
 				5612BE9A248EFCB00076D631 /* Power.swift in Sources */,
