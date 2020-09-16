@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5600DE482512C25100ADBBE4 /* Problem0015.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5600DE472512C25100ADBBE4 /* Problem0015.swift */; };
+		5600DE492512C25100ADBBE4 /* Problem0015.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5600DE472512C25100ADBBE4 /* Problem0015.swift */; };
 		5604F5C724A50DB9005039C1 /* EulerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A7616247BDE98003021ED /* EulerManager.swift */; };
 		5604F5C824A50DB9005039C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A75F3247BD9CA003021ED /* ContentView.swift */; };
 		5604F5C924A50DB9005039C1 /* ProjectEulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D0885224A50A7900B77033 /* ProjectEulerApp.swift */; };
@@ -71,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5600DE472512C25100ADBBE4 /* Problem0015.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0015.swift; sourceTree = "<group>"; };
 		5604F5B824A50D99005039C1 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5604F5C324A50D99005039C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5612BE99248EFCB00076D631 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
@@ -222,6 +225,7 @@
 				56FC20A224DE9BC000A065E9 /* Problem0012.swift */,
 				563D6EBC24F6E58F001812BF /* Problem0013.swift */,
 				5650D5332502B597005115A9 /* Problem0014.swift */,
+				5600DE472512C25100ADBBE4 /* Problem0015.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -353,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5604F5CB24A50DBE005039C1 /* PrimeFactors.swift in Sources */,
+				5600DE492512C25100ADBBE4 /* Problem0015.swift in Sources */,
 				5604F5D124A50DC4005039C1 /* Problem0003.swift in Sources */,
 				5650D5352502B597005115A9 /* Problem0014.swift in Sources */,
 				5604F5CC24A50DBE005039C1 /* IsPrime.swift in Sources */,
@@ -385,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				569A75F4247BD9CA003021ED /* ContentView.swift in Sources */,
+				5600DE482512C25100ADBBE4 /* Problem0015.swift in Sources */,
 				56BDF054248B1D1F00AC84F4 /* Problem0004.swift in Sources */,
 				5650D5342502B597005115A9 /* Problem0014.swift in Sources */,
 				569A7617247BDE98003021ED /* EulerManager.swift in Sources */,

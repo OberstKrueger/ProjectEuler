@@ -33,6 +33,7 @@ class EulerManager: ObservableObject {
                 case .p12: answer = Problem0012().description
                 case .p13: answer = Problem0013().description
                 case .p14: answer = Problem0014().description
+                case .p15: answer = Problem0015().description
                 }
             }
 
@@ -62,6 +63,7 @@ enum EulerProblemNumber: Int, CaseIterable {
     case p12
     case p13
     case p14
+    case p15
 }
 
 enum EulerProblemState {
