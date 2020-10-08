@@ -49,6 +49,8 @@
 		56BD564524CF9D15002DF2F4 /* PrimeSieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD564424CF9D15002DF2F4 /* PrimeSieve.swift */; };
 		56BD564624CF9D15002DF2F4 /* PrimeSieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD564424CF9D15002DF2F4 /* PrimeSieve.swift */; };
 		56BDF054248B1D1F00AC84F4 /* Problem0004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BDF053248B1D1F00AC84F4 /* Problem0004.swift */; };
+		56C3221E252F3E5200C12CF9 /* Problem0016.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3221D252F3E5200C12CF9 /* Problem0016.swift */; };
+		56C3221F252F3E5200C12CF9 /* Problem0016.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3221D252F3E5200C12CF9 /* Problem0016.swift */; };
 		56C518B724D34C680028F825 /* Problem0011.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C518B624D34C670028F825 /* Problem0011.swift */; };
 		56C518B824D34C680028F825 /* Problem0011.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C518B624D34C670028F825 /* Problem0011.swift */; };
 		56D0885324A50A7900B77033 /* ProjectEulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D0885224A50A7900B77033 /* ProjectEulerApp.swift */; };
@@ -100,6 +102,7 @@
 		56BD564124CF9B07002DF2F4 /* Problem0010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0010.swift; sourceTree = "<group>"; };
 		56BD564424CF9D15002DF2F4 /* PrimeSieve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeSieve.swift; sourceTree = "<group>"; };
 		56BDF053248B1D1F00AC84F4 /* Problem0004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0004.swift; sourceTree = "<group>"; };
+		56C3221D252F3E5200C12CF9 /* Problem0016.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0016.swift; sourceTree = "<group>"; };
 		56C518B624D34C670028F825 /* Problem0011.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0011.swift; sourceTree = "<group>"; };
 		56D0885224A50A7900B77033 /* ProjectEulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEulerApp.swift; sourceTree = "<group>"; };
 		56D53B06248EF58600631233 /* Problem0005.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem0005.swift; sourceTree = "<group>"; };
@@ -226,6 +229,7 @@
 				563D6EBC24F6E58F001812BF /* Problem0013.swift */,
 				5650D5332502B597005115A9 /* Problem0014.swift */,
 				5600DE472512C25100ADBBE4 /* Problem0015.swift */,
+				56C3221D252F3E5200C12CF9 /* Problem0016.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -376,6 +380,7 @@
 				56C518B824D34C680028F825 /* Problem0011.swift in Sources */,
 				5604F5D224A50DC4005039C1 /* Problem0006.swift in Sources */,
 				568830B424BDAA7100077250 /* ProblemData.swift in Sources */,
+				56C3221F252F3E5200C12CF9 /* Problem0016.swift in Sources */,
 				56BD564624CF9D15002DF2F4 /* PrimeSieve.swift in Sources */,
 				5604F5C924A50DB9005039C1 /* ProjectEulerApp.swift in Sources */,
 				5604F5CD24A50DC4005039C1 /* Problem0004.swift in Sources */,
@@ -409,6 +414,7 @@
 				56C518B724D34C680028F825 /* Problem0011.swift in Sources */,
 				56BBD28A248631FA008FFC8A /* Problem0002.swift in Sources */,
 				568830B324BDAA7100077250 /* ProblemData.swift in Sources */,
+				56C3221E252F3E5200C12CF9 /* Problem0016.swift in Sources */,
 				56BD564524CF9D15002DF2F4 /* PrimeSieve.swift in Sources */,
 				569A7613247BDA9B003021ED /* Problem0001.swift in Sources */,
 				56D53B09248EF65200631233 /* IsPrime.swift in Sources */,
